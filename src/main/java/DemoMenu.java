@@ -22,8 +22,8 @@ public class DemoMenu extends BaseForm {
         Tetris bf = new Tetris();
         ColorSwapDemo cswap = new ColorSwapDemo();
         btnExit.addActionListener(e -> {
-            //frame.dispose();
             System.exit(0);
+            frame.dispose();
         });
         btnTempConv.addActionListener(e -> {
             if(!tc.isOpen()){
